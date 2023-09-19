@@ -5,9 +5,37 @@
     font-family: 'Montserrat', sans-serif;
     padding: 0px;
     margin: 0px;
-    /* box-sizing: border-box; */
+     box-sizing: border-box; 
 }
+/* CSS rules for small screens (max-width: 768px) */
+@media screen and (max-width: 768px) {
+    /* Define styles for small screens */
+    body {
+      font-size: 16px;
+    }
+  }
+  
+  /* CSS rules for tablets (min-width: 769px) and (max-width: 1024px) */
+  @media screen and (min-width: 769px) and (max-width: 1024px) {
+    /* Define styles for tablets */
+    body {
+      font-size: 18px;
+    }
+  }
+  
+  /* CSS rules for desktops (min-width: 1025px) */
+  @media screen and (min-width: 1025px) {
+    /* Define styles for desktops */
+    body {
+      font-size: 20px;
+    }
+  }
+  .container {
+    width: 100%;
+    max-width: 1200px; /* Optional: Set a maximum width */
+  }
 
+ 
 /* NavBar */
 
 #navbar{
@@ -15,15 +43,15 @@
     display: flex;
     width: 80%;
     height: 7%;
-    /* border: 2px solid  red; */
+     border: 2px whitesmoke; 
     justify-content: flex-start;
     margin: auto;
     background-color: white;
     
-    /* box-shadow: rgb(0 0 0 / 4%) 0px 6px 8px; */
-    /* transition: all 0.3s ease-in 0s;
-    z-index: 2; */
-    /* height: var(--sizes-8); */
+     box-shadow: rgb(0 0 0 / 4%) 0px 6px 8px; 
+     transition: all 0.3s ease-in 0s;
+    z-index: 2; 
+     height: var(--sizes-8); 
     box-sizing: border-box;
     margin-top: -10px;
     position: fixed;
@@ -63,7 +91,7 @@
     font-size: small;
     background-color: white;
     width: 400px;
-    /* color: 2px solid black; */
+     color: 2px solid black; 
     
     margin-left: 500px;
     margin-top: 10px;
