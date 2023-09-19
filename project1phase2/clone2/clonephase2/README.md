@@ -6,17 +6,17 @@ Team Members
 4. Affan Ansari
 
 This website is made using
-1.HTMl
-2.CSS
-3.Java Script
+1. HTMl
+2. CSS
+3. Java Script
 
 The website contains
-1.Home Page
-2.Sign Up/Login Page
-3.Product Page
-4.Cart Page
-5.Payement Page
-6.FAQ Page
+1. Home Page
+2. Sign Up/Login Page
+3. Product Page
+4. Cart Page
+5. Payement Page
+6. FAQ Page
 
 
 The Homepage :-
